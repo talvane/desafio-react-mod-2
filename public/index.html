@@ -10,6 +10,136 @@
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/fontawesome.min.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <style>
+      @media print {
+        #ghostery-purple-box {
+          display: none !important;
+        }
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <header class="topo">
+      <div class="container">
+        <a href="#" class="topo__logo">
+          <img src="img/instagram-logo.svg" alt="Instagram Logo" />
+        </a>
+        <button class="topo__icon">
+          <i class="far fa-paper-plane"></i>
+        </button>
+      </div>
+    </header>
+
+    <div class="container">
+      <section class="story">
+        <div class="story__container">
+          <a href="#" class="user__icon">
+            <span class="user__icon__wrapper">
+              <img
+                src="img/profiles/carol/carol-profile.jpg"
+                alt="carol-profile"
+              />
+            </span>
+          </a>
+          <a href="#" class="user__icon">
+            <span class="user__icon__wrapper">
+              <img
+                src="img/profiles/black-panther/black-panther-profile.jpg"
+                alt="carol-profile"
+              />
+            </span>
+          </a>
+          <a href="#" class="user__icon user__icon--New">
+            <span class="user__icon__wrapper">
+              <img
+                src="img/profiles/bruce/bruce-profile.jpg"
+                alt="carol-profile"
+              />
+            </span>
+          </a>
+          <a href="#" class="user__icon user__icon--New">
+            <span class="user__icon__wrapper">
+              <img
+                src="img/profiles/domino/domino-profile.jpg"
+                alt="carol-profile"
+              />
+            </span>
+          </a>
+          <a href="#" class="user__icon user__icon--New">
+            <span class="user__icon__wrapper">
+              <img
+                src="img/profiles/gamora/gamora-profile.jpg"
+                alt="carol-profile"
+              />
+            </span>
+          </a>
+          <a href="#" class="user__icon user__icon--New">
+            <span class="user__icon__wrapper">
+              <img
+                src="img/profiles/yoda/yoda-profile.jpg"
+                alt="carol-profile"
+              />
+            </span>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <div class="container">
+      <section class="feed">
+        <article class="post">
+          <header class="post__header">
+            <div class="user">
+              <a href="#" class="user__icon">
+                <img
+                  src="img/profiles/carol/carol-profile.jpg"
+                  alt="carol-profile"
+                />
+              </a>
+
+              <a href="#" class="user__name">Carol</a>
+            </div>
+
+            <button class="post__context">
+              <i class="fas fa-ellipsis-h"></i>
+            </button>
+          </header>
+
+          <figure class="post__figure">
+            <img src="img/profiles/carol/carol-2.jpg" alt="" />
+          </figure>
+
+          <nav class="post__controls">
+            <button class="post__control">
+              <i class="far fa-heart"></i>
+            </button>
+
+            <button class="post__control">
+              <i class="far fa-comment"></i>
+            </button>
+
+            <button class="post__control">
+              <i class="far fa-bookmark"></i>
+            </button>
+          </nav>
+
+          <div class="post__status">
+            <div class="user">
+              <a href="#" class="user__thumb">
+                <img
+                  src="img/profiles/bruce/bruce-profile.jpg"
+                  alt="bruce-profile"
+                />
+              </a>
+
+              <span>
+                curtido por <a href="#">Bruce</a> e outras
+                <a href="#">7 pessoas</a>
+              </span>
+            </div>
+          </div>
+        </article>
+      </section>
+    </div>
+  </body>
 </html>
